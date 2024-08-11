@@ -26,7 +26,7 @@ function EmailForm({ onSubmit }) {
         <Container component="main" maxWidth="xs" sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '180px' }}>
             <Box sx={{ mt: 8, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <Typography variant="h6" gutterBottom>
-                    Please enter your email
+                    Enter your email for OTP verification
                 </Typography>
                 <form onSubmit={handleSubmit} style={{ width: '100%' }}>
                     <TextField
